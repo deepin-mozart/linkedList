@@ -115,7 +115,7 @@ bool insert(
     n.tid = tid;
 
     // insert node in order.
-    nodes.insert(nodes.begin() + static_cast<int>(prev_node), n);
+    nodes.insert(nodes.begin() + prev_node, n);
 
     return true;
 }
